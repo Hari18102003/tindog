@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+/* Title */
+
+#title{
+    background-color: #FF4C68;
+}
+.container-fluid{
+    padding: 5% 15% 7% 15%;
+}
+.navbar{
+    padding: 0 0 70px 0;
+}
+.navbar-brand{
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+h1{
+    font-family: 'Monserrat',sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+.btn{
+    margin: 30px 15px 0 0;
+}
+.nav-item{
+    font-size: 1.2rem;
+    padding: 0 18px;
+    font-weight: 650;
+}
+.iphone{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+/* Features */
+
+#features{
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    padding: 2% 0;
+}
+.col{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #000;
+}
+.col i{
+    color: #ef8172;
+    font-size: 4.5rem;
+    margin-bottom: 20px;
+}
+.col i:hover{
+    color: #FF4C68;
+}
+.col p{
+    color: #8f8f8f;
+    font-weight: 500;
+}
+
+/* TESTIMONIALS */
+
+#testimonial{
+    background-color: #ef8172;
+    text-align: center;
+}
+h2{
+    font-family:sans-serif;
+    font-size: 2.5rem;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px 10px;
+}
+#carouselExampleIndicators{
+    padding: 5% 15%;
+}
+.press{
+    width: 20%;
+    padding: 5%;
+}
+
+/* PRICING */
+
+
+#pricing{
+    overflow: hidden;
+    padding: 3% 5%;
+}
+.card h2{
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.price-title{
+    text-align: center;
+}
+.h{
+    color: #000;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.8;
+}
+.p{
+    color: #8f8f8f;
+}
+
+/* FINAL */
+
+#final{
+    background-color: #fff;
+    padding: 3% 0;
+}
+.content{
+    background-color: #ff4c68;
+    padding: 7%;
+    text-align: center;
+    font-family: sans-serif;
+}
+.end{
+    text-align: center;
+    background-color: #fff;
+    padding-top: 6%;
+}
+#con{
+    color: #000;
+    margin-left: 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+#final p{
+    color: #8f8f8f;
+}
+
+/* MEDIA QUERIES */
+@media (max-width:1037px) {
+    .iphone{
+        position: static;
+        transform: rotate(0);
+        margin-top: 50px;
+        width: 50%;
+    }
+    #title{
+        text-align: center;
+    }
+    
+}
